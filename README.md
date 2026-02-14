@@ -15,7 +15,7 @@ gem 'service-all-libraries'
 - **service-3d** — 3D data visualization engine using Three.js + React + Inertia-Rails
 - **biological_it** — Software architecture modeled on biological systems
 - **service-exception** — Exception handling with JSON-RPC-LD support
-- **rayswarm-table** — AG Grid table editing engine
+- **service-table** — AG Grid table editing engine
 
 ## License
 
