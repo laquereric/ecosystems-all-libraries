@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
 
   spec.summary = "Meta-gem that requires all Service library gems"
   spec.description = "Convenience gem that bundles all Service library gems: " \
-                     "service-3d, service-biological-it, rayswarm-exception, rayswarm-table"
+                     "service-3d, service-biological-it, service-exception, rayswarm-table"
   spec.homepage = "https://github.com/laquereric/service-all-libraries"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 3.0.0"
@@ -25,6 +25,6 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency "service-3d"
   spec.add_dependency "service-biological-it"
-  spec.add_dependency "rayswarm-exception"
+  spec.add_dependency "service-exception"
   spec.add_dependency "rayswarm-table"
 end

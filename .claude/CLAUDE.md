@@ -8,7 +8,7 @@ Meta-gem that bundles all service-ecosystem library gems.
 |-----|------|-------------|
 | **service-3d** | `container/service-3d` | 3D data visualization (Three.js + React + Inertia-Rails) |
 | **service-biological-it** | `library/service-biological-it` | Software architecture modeled on biological systems |
-| **rayswarm-exception** | `library/service-exception` | Exception handling with JSON-RPC-LD protocol |
+| **service-exception** | `library/service-exception` | Exception handling with JSON-RPC-LD protocol |
 | **rayswarm-table** | `library/service-table` | AG Grid table editing engine with Inertia Rails |
 
 ## Current Dependencies
@@ -16,6 +16,6 @@ Meta-gem that bundles all service-ecosystem library gems.
 ```ruby
 spec.add_dependency "service-3d"
 spec.add_dependency "service-biological-it"
-spec.add_dependency "rayswarm-exception"
+spec.add_dependency "service-exception"
 spec.add_dependency "rayswarm-table"
 ```

@@ -4,7 +4,7 @@ require_relative "service_all_libraries/version"
 
 require "service_3d"
 require "service_biological_it"
-require "rayswarm_exception"
+require "service_exception"
 require "rayswarm_table"
 
 module ServiceAllLibraries
